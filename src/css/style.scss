@@ -1,0 +1,38 @@
+//
+// Styles (All)
+// --------------------------------------------
+
+// Variables
+@import 'base/variables';
+
+
+// Mixins
+@import 'base/mixins';
+
+// Reset
+@import 'plugins/reset';
+
+// Fonts
+@import 'base/font';
+
+// Base
+@import 'base/base';
+
+// Helpers clasess
+@import 'base/helpers';
+
+// Plugins
+// ----------------------
+
+
+// Elements
+// ----------------------
+ // @import   'base/flex';
+ @import  'blocks/header';
+ @import  'blocks/main_slider';
+ @import  'blocks/second_slider';
+ @import  'blocks/shops_content';
+ @import  'blocks/footer';
+
+
+

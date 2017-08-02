@@ -1,0 +1,46 @@
+.second__slider {
+	width: 1281px;
+	height: 194px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-beetwen;
+	align-items: stretch;
+	 margin: 0 auto;
+	 	&-slide1{
+			width: 427px;
+			height: 194px;
+			display: flex;
+		 	background-image: url(../img/slide1.png);
+		 	position: relative;
+		 		img {
+		 			position: absolute;
+		 			bottom: 32px;
+		 			left: 40px;
+		 			}
+		 		}
+		&-slide2{
+			width: 427px;
+			height: 194px;
+			display: flex;
+		 	background-image: url(../img/slide2.png);
+		 	position: relative;
+		 		img {
+		 			position: absolute;
+		 			bottom: 32px;
+		 			left: 40px;
+		 			}
+		 		}
+		 &-slide3{
+			width: 427px;
+			height: 194px;
+			display: flex;
+		 	background-image: url(../img/slide3.png);
+		 	position: relative;
+		 		img {
+		 			position: absolute;
+		 			bottom: 32px;
+		 			left: 40px;
+		 			}
+		 		} 				
+}

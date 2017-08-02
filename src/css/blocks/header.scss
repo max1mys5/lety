@@ -1,0 +1,117 @@
+
+        .top__bar {
+        max-width: 1280px;
+        background-color: #FCFCFC;
+        display: flex;
+        margin: auto;
+        justify-content: space-between;
+            &-info {
+                display: flex;
+                font-family: ProximaNova;
+                font-size: 14px;
+                font-weight: 600;
+                line-height: 17.02px;
+                text-align: left;
+                margin-top: 17px;
+                margin-left: 30px;
+                    a {
+                        color: #1e1e1e;
+                    }
+                    span {
+                        font-family: ProximaNova;
+                        color:  #ababab;
+                        font-size: 12px;
+                        font-weight: 600;
+                        line-height: 17.02px;
+                        padding-left: 19px;
+                        }
+                  }      
+            &-navigation {
+                display: flex;
+                margin-top: 20px;
+                ul { 
+                    li {
+                        a {
+                            font-family: ProximaNova;
+                            color: #B8B8B8;
+                            font-size: 10px;
+                            font-weight: 600;
+                            line-height: 17.02px;
+                            text-transform: uppercase;
+                            padding-left: 15px;
+                            padding-right: 15px;
+                        }
+                    }
+                }      
+            } 
+            &-login {
+                display:flex;
+                margin-right: 32px;
+                margin-top: 18px;
+                ul {
+                    li {
+                        a{
+                            font-family: ProximaNova;
+                            color:  #B8B8B8;
+                            font-size: 10px;
+                            font-weight: 600;
+                            line-height: 17.02px;
+                            text-transform: uppercase;
+                            padding-right: 23px;
+                            
+                        }
+                        span{
+                            font-family: ProximaNova;
+                            color:  #1e1e1e;
+                            font-size: 12px;
+                            font-weight: 600;
+                            line-height: 17.02px;     
+                        }
+                        i{
+                            margin-right: 7px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .logo {
+            width: 100%;
+            max-width: 1280px;
+            height: 100px;
+            background: #FCFCFC;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto;
+
+                h1 {
+                    font-family: BrandonGrotesque;
+                    color:  #1e1e1e;
+                    font-size: 24px;
+                    font-weight: 700;
+                    line-height: 17.02px;
+                    text-align: left;
+                    padding-top: 43px;
+                }
+        }
+    .navigation {
+        max-width: 1280px;
+        height: 58px;
+        background: #FCFCFC;
+        display: flex; 
+        justify-content: center; 
+        flex-wrap: wrap;
+        margin: 0 auto;
+        border-top: 0.5px solid #E3E3E3;
+        padding-top: 18px;
+            ul {
+                li {
+                    a {
+                        font-family: ProximaNova;
+                        color: #373737;
+                        font-size: 13px;
+                    }
+                }
+            }
+ }
+

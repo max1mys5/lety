@@ -1,0 +1,53 @@
+.main__slider{
+	max-width: 1280px;
+	height: 516px;
+	background-image: url(../img/girl.png);
+	display: flex;
+	margin: 0 auto;
+	position: relative;
+		&__product{
+			&-logo{
+				position: absolute;
+				bottom: 53px;
+				left: 281px;
+				}
+			&-name{
+				position: absolute;
+				top: 112px;
+				left: 105px;		
+				font-size: 72px;
+				}
+			&-text{
+				position: absolute;
+				left: 107px;
+				top: 239px;			
+				font-size: 18px;
+					span {
+
+					}
+				}
+			&-line{
+				position: absolute;
+				top: 203px;
+				left: 108px;
+				
+			}	
+		}
+	 	&__navigation{
+			&-dots{
+				position: absolute;
+				top: 42px;
+				right: 81px;
+				}
+			&-button{
+				position: absolute;
+				top: 206px;
+				right: 66px;
+				}
+			&-about{
+				position: absolute;
+				bottom: 30px;
+				right: 32px;
+				}
+	 	}
+}
