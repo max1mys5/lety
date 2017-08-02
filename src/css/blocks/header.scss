@@ -7,7 +7,7 @@
         justify-content: space-between;
             &-info {
                 display: flex;
-                font-family: ProximaNova;
+                font-family: 'ProximaNovaSemibold';
                 font-size: 14px;
                 font-weight: 600;
                 line-height: 17.02px;
@@ -18,7 +18,7 @@
                         color: #1e1e1e;
                     }
                     span {
-                        font-family: ProximaNova;
+                        font-family: 'ProximaNovaSemibold';
                         color:  #ababab;
                         font-size: 12px;
                         font-weight: 600;
@@ -32,7 +32,7 @@
                 ul { 
                     li {
                         a {
-                            font-family: ProximaNova;
+                            font-family: 'ProximaNovaSemibold';
                             color: #B8B8B8;
                             font-size: 10px;
                             font-weight: 600;
@@ -51,7 +51,7 @@
                 ul {
                     li {
                         a{
-                            font-family: ProximaNova;
+                            font-family: 'ProximaNovaSemibold';
                             color:  #B8B8B8;
                             font-size: 10px;
                             font-weight: 600;
@@ -61,7 +61,7 @@
                             
                         }
                         span{
-                            font-family: ProximaNova;
+                            font-family: 'ProximaNovaSemibold';
                             color:  #1e1e1e;
                             font-size: 12px;
                             font-weight: 600;
@@ -85,7 +85,7 @@
             margin: 0 auto;
 
                 h1 {
-                    font-family: BrandonGrotesque;
+                    font-family: 'BrandonGrotesqueBold';
                     color:  #1e1e1e;
                     font-size: 24px;
                     font-weight: 700;
@@ -106,12 +106,22 @@
         padding-top: 18px;
             ul {
                 li {
+                    padding-left: 24px;
+                    padding-right: 24px;
                     a {
-                        font-family: ProximaNova;
+                        font-family: 'ProximaNovaBold';
                         color: #373737;
                         font-size: 13px;
+                        font-weight: 700;
+                        line-height: 17.02px;
                     }
                 }
             }
  }
 
+.navigation ul li:first-child {
+    padding-left: 51px;
+}
+.navigation ul li:last-child {
+    padding-right: 49px;
+}
