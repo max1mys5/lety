@@ -1,16 +1,15 @@
 .second__slider {
-	width: 1281px;
-	height: 194px;
+	max-width: 1280px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-beetwen;
-	align-items: stretch;
+	justify-content: space-around;
 	 margin: 0 auto;
 	 	&-slide1{
-			width: 427px;
 			height: 194px;
 			display: flex;
+			flex-wrap: wrap;
+			flex-basis: 426px;
 		 	background-image: url(../img/slide1.png);
 		 	position: relative;
 		 		img {
@@ -20,9 +19,10 @@
 		 			}
 		 		}
 		&-slide2{
-			width: 427px;
 			height: 194px;
 			display: flex;
+			flex-wrap: wrap;
+			flex-basis: 427px;
 		 	background-image: url(../img/slide2.png);
 		 	position: relative;
 		 		img {
@@ -32,9 +32,9 @@
 		 			}
 		 		}
 		 &-slide3{
-			width: 427px;
 			height: 194px;
 			display: flex;
+			flex-basis: 427px;
 		 	background-image: url(../img/slide3.png);
 		 	position: relative;
 		 		img {

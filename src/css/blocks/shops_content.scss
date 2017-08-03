@@ -3,18 +3,16 @@
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-beetwen;
-	align-items: stretch;
-	 margin: 0 auto;
-	 	&__item {	 		
-	 		display:flex;
+	justify-content: space-around;
+	margin: 0 auto;
 	 			&-item1 {
-		 			width: 426px;
 					height: 299px;
+					flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item1.png);
-		 			border-left: 0.5px solid #E3E3E3; 
+		 			border: 0.5px solid #E3E3E3; 
 		 			position: relative;
-
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
 							position: absolute;
@@ -28,9 +26,13 @@
 		 				}
 		 			}	
 		 		&-item2 {
-		 			width: 426px;
+		 			// width: 426px;
 					height: 299px;
+					flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item2.png);
+		 			border: 0.5px solid #E3E3E3; 
 		 			position: relative;
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
@@ -45,10 +47,12 @@
 		 				}
 		 			}	
 		 		&-item3 {
-		 			width: 426px;
-					height: 299px;
+		 			height: 299px;
+					flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item3.png);
-		 			border: 0.5px solid #E3E3E3;
+		 			border: 0.5px solid #E3E3E3; 
 		 			position: relative;
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
@@ -63,8 +67,10 @@
 		 				}
 		 			}	
 		 		&-item4 {
-		 			width: 426px;
-					height: 299px;
+		 			height: 299px;
+		 			flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item4.png);
 		 			border: 0.5px solid #E3E3E3; 
 		 			position: relative;
@@ -81,10 +87,12 @@
 		 				}
 		 			}	
 		 		&-item5 {
-		 			width: 426px;
-					height: 299px;
+		 			height: 299px;
+		 			flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item5.png);
-		 			border-top: 0.5px solid #E3E3E3; 
+		 			border: 0.5px solid #E3E3E3;  
 		 			position: relative;
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
@@ -99,11 +107,12 @@
 		 				}
 		 			}	
 		 		&-item6 {
-		 			width: 426px;
-					height: 299px;
+		 			height: 299px;
+		 			flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item6.png);
-		 			border-right: 0.5px solid #E3E3E3;
-		 			border-bottom: 0.5px solid #E3E3E3; 
+		 			border: 0.5px solid #E3E3E3; 
 		 			position: relative;
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
@@ -118,10 +127,12 @@
 		 					}
 		 			}	
 		 		&-item7 {
-		 			width: 426px;
-					height: 299px;
+		 			height: 299px;
+		 			flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item7.png);
-		 			border-left: 0.5px solid #E3E3E3; 
+		 			border: 0.5px solid #E3E3E3; 
 		 			position: relative;
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
@@ -136,11 +147,12 @@
 		 				}
 		 			}	
 		 		&-item8 {
-		 			width: 426px;
-					height: 299px;
+		 			height: 299px;
+		 			flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item1.png);
-		 			border-top: 0.5px solid #E3E3E3;
-		 			border-left: 0.5px solid #E3E3E3; 
+		 			border: 0.5px solid #E3E3E3; 
 		 			position: relative;
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
@@ -155,10 +167,12 @@
 		 				}
 		 			}	
 		 		&-item9 {
-		 			width: 426px;
-					height: 299px;
+		 			height: 299px;
+		 			flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item9.png);
-		 			border-right: 0.5px solid #E3E3E3; 
+		 			border: 0.5px solid #E3E3E3; 
 		 			position: relative;
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
@@ -173,11 +187,12 @@
 		 				}
 		 			}	
 	 			&-item10 {
-		 			width: 426px;
-					height: 299px;
+	 				height: 299px;
+		 			flex-basis: 426px;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/item10.png);
-					border-left: 0.5px solid #E3E3E3;
-					border-top: 0.5px solid #E3E3E3; 
+					border: 0.5px solid #E3E3E3; 
 		 			position: relative;
 		 				span {
 		 					font-family: 'ProximaNovaSemibold';
@@ -192,10 +207,13 @@
 		 				}
 		 			}
 		 		&-advertising{
-		 			width: 854px;
-					height: 300px;
+					height: 299px;
+					flex-basis: 854px;;
+					display: flex;
+					flex-wrap: wrap;
 		 			background-image: url(../img/girl2.png);
-					border: 0.5px solid #E3E3E3; 
+		 			background-repeat: no-repeat;
+					border: 0.5px outset #E3E3E3; 
 		 			position: relative;	
 						h4{
 							position: absolute;
@@ -220,9 +238,9 @@
 							line-height: 18px;					
 						}	
 		 		}		 		
-		 }
 }
-.shops__content__item-item1:hover{ 
+
+.shops__content-item1:hover{ 
 	background-image: url(../img/brown-black.png);
         opacity: 0.9;
 }

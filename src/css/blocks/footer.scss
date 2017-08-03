@@ -1,15 +1,15 @@
 .footer {
-	width: 1280px;
-	height: 301px;
+	max-width: 1280px;
 	background-color: #181818;
 	display: flex;
 	margin: 0 auto;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
-
+	justify-content: space-around;
 	.rights {
 		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 150px;
 		margin-top: 31px;
 		margin-left: 35px;
 			span {
@@ -19,6 +19,8 @@
 	}
 	.about_us {
 		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 80px;
 		margin-top: 31px;
 			span {
 				text-transform: uppercase;
@@ -37,6 +39,8 @@
 	}
 	.help {
 		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 150px;
 		margin-top: 31px;
 			span {
 				text-transform: uppercase;
@@ -56,7 +60,9 @@
 	}
 	.info {
 		display: flex;
+		flex-basis: 160px;
 		margin-top: 31px;
+		flex-wrap: wrap;
 			span {
 				text-transform: uppercase;
 				color: #FBFBFB;
@@ -74,6 +80,8 @@
 	}
 	.pairs {
 		display: flex;
+		flex-basis: 120px;
+		flex-wrap: wrap;
 		margin-top: 31px;
 			span {
 				text-transform: uppercase;
@@ -92,6 +100,8 @@
 	}
 	.social {
 		display: flex;
+		flex-wrap: wrap;
+		flex-basis: 153px;
 		flex-direction: column;
 		margin-top: 31px;
 		margin-right: 51px;
